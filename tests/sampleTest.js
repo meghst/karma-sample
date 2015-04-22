@@ -21,16 +21,8 @@ describe("myCtrl", function() {
       expect(true).toBe(true);
     });
 
-    it("and can have a negative case", function() {
-      expect(false).not.toBe(true);
-    });
-
     it("Should say hello", function() {
         expect($scope.message).toBe("Hello");// similar to assertion
-    });
-
-    it("Should not be empty",function(){
-      expect($scope.list).toBeTruthy();
     });
 
     it("Should contain 2",function(){
